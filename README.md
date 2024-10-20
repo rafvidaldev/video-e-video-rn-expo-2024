@@ -11,8 +11,6 @@ Versão adicional do aplicativo [Video&Video](https://github.com/RTVidal/teste-r
 - Correção de bug de cor da estrutura de abas da home onde, caso dispositivo em modo escuro, a opção selecionada não ficava visível
 - Melhor organização do código-fonte
 
-Projeto [Expo](https://expo.dev) criado com [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
 ## Instalar e executar o aplicativo
 
 Após o downlod do repositório, executar os seguintes comandos para rodar o projeto localmente em um emulador ou dispositivo android conectado
