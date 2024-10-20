@@ -68,7 +68,7 @@ export default function NewPost(){
   );
 
   return(
-    <View>
+    <View style={styles.mainContainer}>
       {openCamera || openGallery ?
         <View style={{padding: 5}}>
           <Button

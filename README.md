@@ -1,7 +1,17 @@
-# Seja bem-vindo ao aplicativo "Video&Video", desenvolvido como projeto para o teste técnico para o cargo de Analista de Sistemas Mobile Pleno na RPC 👋
+# Seja bem-vindo ao aplicativo "Video&Video" 👋
+
+Versão adicional do aplicativo [Video&Video](https://github.com/RTVidal/teste-rpc) com ajustes e melhorias implementadas após a data de disponibilização do projeto. Versão em repositório separado com o objetivo de não alterar o código-fonte do repositório original após o período estabelecido para entrega no documento de especificação do projeto.
+
+## Alterações em relação à versão original:
+
+- Posts fixos com vídeos variados
+- Vídeos de posts fixos com thumbnails com imagens ao invés de apenas cores
+- Implementação de controle para não permitir a execução simultânea de dois ou mais vídeos, evitando lentidão, travamentos e crashs
+- Implementação de controle para encerrar execução de vídeo ao sair do componente
+- Correção de bug de cor da estrutura de abas da home onde, caso dispositivo em modo escuro, a opção selecionada não ficava visível
+- Melhor organização do código-fonte
 
 Projeto [Expo](https://expo.dev) criado com [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
 
 ## Instalar e executar o aplicativo
 
@@ -53,14 +63,12 @@ Opção 2: Gerar build via **eas**
 
 Opção 3: Instalar diretamente a apk gerada via **eas build** e disponibilizada no ambiente **expo.dev**
 
-Disponível em [https://expo.dev/accounts/rafaelvidal/projects/teste-rpc/builds/20fc2e3a-3370-4507-91f1-a775aeee9872](https://expo.dev/accounts/rafaelvidal/projects/teste-rpc/builds/20fc2e3a-3370-4507-91f1-a775aeee9872)
+Disponível em [https://expo.dev/accounts/rafaelvidal/projects/teste-rpc/builds/20fc2e3a-3370-4507-91f1-a775aeee9872](https://expo.dev/accounts/rafaelvidal/projects/teste-rpc-2/builds/8319e475-8032-4261-8b22-7cc69edb534a)
 
 ## Observações gerais
 
-Devido à limitações de dispositivos paradesenvolvimento e testes, o projeto foi desenvolvido com foco em ambiente Android
+Devido à limitações de dispositivos para desenvolvimento e testes, o projeto foi desenvolvido com foco em ambiente Android
 
 O aplicativo possui um módulo interno simulando uma api, dispensando conexão com a internet.
-
-Para fins de otimização, os posts de usuários fictícios exibem o mesmo asset de vídeo. Entretando, cada post é único dentro do cenário do aplicativo.
 
 Em caso de dúvidas, é possível entrar em contato através do email **rafaelvidal4@gmail.com**.

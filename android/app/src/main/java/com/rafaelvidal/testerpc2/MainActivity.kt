@@ -1,4 +1,4 @@
-package com.rafaelvidal.testerpc
+package com.rafaelvidal.testerpc2
 
 import android.os.Build
 import android.os.Bundle

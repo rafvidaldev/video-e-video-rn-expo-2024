@@ -1,8 +1,7 @@
-import React, {useEffect} from 'react';
-import {View, Text} from 'react-native';
-import { Tabs, Redirect, Stack } from 'expo-router';
+import React from 'react';
+import { Text } from 'react-native';
+import { Tabs, Redirect } from 'expo-router';
 import { TabBarIcon } from '@/components/navigation/TabBarIcon';
-import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { useSession } from '../../ctx';
 
@@ -19,7 +18,7 @@ export default function HomeLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint
+        tabBarActiveTintColor: '#0a7ea4',
       }}>
       <Tabs.Screen
         name="feed"

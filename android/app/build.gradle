@@ -109,9 +109,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.rafaelvidal.testerpc'
+    namespace 'com.rafaelvidal.testerpc2'
     defaultConfig {
-        applicationId 'com.rafaelvidal.testerpc'
+        applicationId 'com.rafaelvidal.testerpc2'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

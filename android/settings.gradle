@@ -44,7 +44,7 @@ if (getRNMinorVersion() >= 75) {
   }
 }
 
-rootProject.name = 'teste-rpc'
+rootProject.name = 'teste-rpc-2'
 
 dependencyResolutionManagement {
   versionCatalogs {

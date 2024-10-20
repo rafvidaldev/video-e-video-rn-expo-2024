@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "teste-rpc",
-    "slug": "teste-rpc",
+    "name": "teste-rpc-2",
+    "slug": "teste-rpc-2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -20,7 +20,11 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.rafaelvidal.testerpc"
+      "package": "com.rafaelvidal.testerpc2",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -50,8 +54,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "1d569efc-52ee-49d2-ae36-b7ff420183a1"
+        "projectId": "10d3d85a-d0b0-42a7-8290-0d38aecf448a"
       }
-    }
+    },
+    "owner": "rafaelvidal"
   }
 }
