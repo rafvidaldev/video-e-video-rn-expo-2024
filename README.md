@@ -1,6 +1,6 @@
 # Seja bem-vindo ao aplicativo "Video&Video" 👋
 
-Versão adicional do aplicativo [Video&Video](https://github.com/RTVidal/teste-rpc) com ajustes e melhorias implementadas após a data de disponibilização do projeto. Versão em repositório separado com o objetivo de não alterar o código-fonte do repositório original após o período estabelecido para entrega no documento de especificação do projeto.
+Versão adicional do aplicativo [Video&Video](https://github.com/RTVidal/teste-rpc) com ajustes e melhorias implementadas após a data de disponibilização do projeto. Versão em repositório separado a fim de não alterar o código-fonte do repositório original após o período estabelecido para desenvolvimento no documento de especificação do projeto.
 
 ## Alterações em relação à versão original:
 
@@ -63,7 +63,7 @@ Opção 2: Gerar build via **eas**
 
 Opção 3: Instalar diretamente a apk gerada via **eas build** e disponibilizada no ambiente **expo.dev**
 
-Disponível em [https://expo.dev/accounts/rafaelvidal/projects/teste-rpc/builds/20fc2e3a-3370-4507-91f1-a775aeee9872](https://expo.dev/accounts/rafaelvidal/projects/teste-rpc-2/builds/8319e475-8032-4261-8b22-7cc69edb534a)
+Disponível em [https://expo.dev/accounts/rafaelvidal/projects/teste-rpc-2/builds/8319e475-8032-4261-8b22-7cc69edb534a](https://expo.dev/accounts/rafaelvidal/projects/teste-rpc-2/builds/8319e475-8032-4261-8b22-7cc69edb534a)
 
 ## Observações gerais
 
